@@ -49,6 +49,16 @@ public class FootballPlayer {
         System.out.println("New jersey number after one season " + jersey_number);
 
         //task 4
+        if ((age>= 18 && age<= 35) && ( weight> 0 && weight < 90)){
+            System.out.println("Eligible");}
+
+        else {
+            System.out.println("Not eligible");
+        }
+
+        //task 5
+        
+
 
 
 
