@@ -23,11 +23,40 @@ public class FootballPlayer {
 
         System.out.println("Player name - " + name);
         System.out.println("Age - " + age);
-        System.out.println("Height - " + height);
-        System.out.println("Weight - " + weight);
+        System.out.println("Height - " + height +"m");
+        System.out.println("Weight - " + weight + "lbs");
         System.out.println("Jersey Number - " + jersey_number);
 
         //task 2
+        final float pound = 0.45359237f;
+        final int  meter = 100;
+        float kilograms = weight * pound;
+        float centimeters = height * meter;
+
+        System.out.println("Player name - " + name);
+        System.out.println("Age - " + age);
+        System.out.println("Height in centimeters - " + centimeters + "cm");
+        System.out.println("Weight in kilograms - " + weight +"kg");
+        System.out.println("Jersey Number - " + jersey_number);
+
+        //task 3
+
+        System.out.println("Age now  " + age);
+        age++;
+        jersey_number--;
+
+        System.out.println("New age after one season " + age);
+        System.out.println("New jersey number after one season " + jersey_number);
+
+        //task 4
+
+
+
+
+
+
+
+
 
 
 
