@@ -56,6 +56,21 @@ public class FootballPlayer {
             System.out.println("Not eligible");
         }
 
+        //experimentation 2
+        //if((age>= 18 && age<= 35) || ( weight> 0 && weight < 90)){
+            //System.out.println("Player has a problem (either too young or too heavy)");
+        //}
+
+        //experimentation 3
+        //boolean player_eligibility = (age >= 18 && age <= 35) && (weight > 0 && weight < 90);
+
+        //if (!player_eligibility) {
+         //   System.out.println("Not Eligible (using NOT)");
+        //}
+        //else {
+         //   System.out.println("Eligible (using NOT)");
+        //}
+
         //task 5
         if(age < 20){
             System.out.println("Rising Star");
@@ -197,14 +212,6 @@ public class FootballPlayer {
         }
 
         //task 8
-        //Description: Select player for starting lineup. Rule: if category is Prime Player and weight < 80,
-        //then starting lineup; else bench.
-        //Objective: Practice nested decision making.
-        //Concepts to Practice: Nested if statements.
-        //Instructions:
-        //• Write a selection to first check category first.
-        //• Inside the first check, add a selection to check weight.
-        //• Print lineup decision.
         String category = "Prime player";
         int w_eight = 60;
 
@@ -217,6 +224,13 @@ public class FootballPlayer {
             System.out.println("Bench");
 
         }
+
+        //task 9
+        String Eligibility = ((age >= 18 && age <= 35) && weight < 90)? "Play" : "Rest";
+        System.out.println(Eligibility);
+
+
+
 
 
 
